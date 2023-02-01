@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius-Fahrenheit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Celsius-Fahrenheit Converter</h1>
+        <p>Type in the number and select the temperature scale you want to convert</p>
+    </header>
+    <section class="container">
+        <div class="side" id="left-side">
+            <input type="text" id="user-input">
+            <select id="selection">
+                <option value="null">---</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+        <div class="equal-sign">=</div>
+        <!-- <div class="side" id="right-side">
+            <input type="text" class="input">
+            <select class="selection right">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+            </select>
+        </div> -->
+    </section>
+    <div id="result"></div>
+    <footer>
+        Copyright &copy 
+        <script>document.write(new Date().getFullYear())</script>
+        Futureland03
+    </footer>
+</body>
+</html>
+
+<!--Celsius to Fahrenheit: (°C × 9/5) + 32 = °F-->
+<!--Fahrenheit to Celsius: (°F − 32) × 5/9 = °C-->
