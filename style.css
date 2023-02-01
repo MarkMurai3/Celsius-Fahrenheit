@@ -52,7 +52,8 @@ input{
 select{
     border:1px solid rgb(144, 144, 144);
     background: rgb(78, 78, 78);
-    color:rgb(255, 255, 255)
+    color:rgb(255, 255, 255);
+    font-size: 17px;
 }
 
 footer{
@@ -73,7 +74,22 @@ footer{
         text-align: center;
     }
 
-    .formula{
+    #result{
         text-align: center;
+    }
+    .side{
+        display: grid;
+        height: 10vh;
+        width: 50vw;
+        place-items: center;
+    }
+    select{
+        width: 50vw;
+        border-radius: 0%;
+        height: 2em;
+    }
+    input{
+        width: 49vw;
+        height: 2em;
     }
 }
