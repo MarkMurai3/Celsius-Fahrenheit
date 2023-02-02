@@ -32,7 +32,7 @@ p{
 .side{
     display: grid;
     height: 10vh;
-    width: 30vw
+    width: 30vw;
 }
 
 .equal-sign{
